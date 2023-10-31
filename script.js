@@ -262,9 +262,9 @@ const startLogOutTimer = function () {
 
 let currentAccount, timer;
 
-currentAccount = account1;
-updateUI(account1);
-containerApp.style.opacity = 100;
+// currentAccount = account1;
+// updateUI(account1);
+// containerApp.style.opacity = 100;
 
 btnLogin.addEventListener("click", function (e) {
   e.preventDefault();
